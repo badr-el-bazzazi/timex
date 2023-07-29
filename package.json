@@ -1,5 +1,5 @@
 {
-  "name": "timex",
+  "name": "@badr-el-bazzazi/timex",
   "version": "1.0.0",
   "description": "online timzone converter",
   "scripts": {
