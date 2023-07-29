@@ -1,5 +1,5 @@
 {
-  "name": "timezone-converter",
+  "name": "timex",
   "version": "1.0.0",
   "description": "online timzone converter",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "parcel build index.html --public-url=./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "rajasharan@gmail.com",
+  "author": "badrelbazzazi@gmail.com",
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.5.0",
