@@ -8,10 +8,18 @@
     "start": "concurrently \"npm:watch\" \"npm:serve\"",
     "build": "parcel build index.html --public-url=./",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/component -d dist --copy-files"
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/**/*.jsx -d dist --copy-files"
   },
   "author": "badrelbazzazi@gmail.com",
   "license": "MIT",
+  "name": "timezone_x_converter",
+  "version": "0.1.0",
+  "private": false,
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.5.0",
     "bulma": "^0.7.2",
