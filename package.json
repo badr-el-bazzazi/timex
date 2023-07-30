@@ -7,7 +7,8 @@
     "serve": "cd dist && lite-server",
     "start": "concurrently \"npm:watch\" \"npm:serve\"",
     "build": "parcel build index.html --public-url=./",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/component -d dist --copy-files"
   },
   "author": "badrelbazzazi@gmail.com",
   "license": "MIT",
