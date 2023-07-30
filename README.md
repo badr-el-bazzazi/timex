@@ -1,4 +1,5 @@
 # timex
+timex is A timezone converter tool that allows you to convert the time in one timezone to the time in another timezone.
 
 1. colne repo :
 `git clone https://github.com/badr-el-bazzazi/timex.git`
